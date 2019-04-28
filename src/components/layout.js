@@ -4,13 +4,16 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 // Styling
-import "../styles/styles.css"
+import "../styles/styles.scss"
+import layoutStyles from "../styles/layout.module.scss"
 
 const Layout = (props) => {
   return (
-    <div>
+    <div className={layoutStyles.container}>
+      <div className={layoutStyles.content}>
       <Header/>
       {props.children}
+      </div>
       <Footer/>
     </div>
   )
