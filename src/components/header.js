@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 /** Styles import with CSS modules, we need to import the individual stylesheets
  * Like they are a JS module
@@ -7,9 +7,19 @@ import { Link } from "gatsby"
 import headerStyles from "../styles/header.module.scss"
 
 const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
     <header className={headerStyles.header}>
-      <h1><Link to="/" className={headerStyles.logo}>Gatsby Bootcamp</Link></h1>
+      <h1><Link to="/" className={headerStyles.logo}>{data.site.siteMetadata.title}</Link></h1>
       <nav>
         <ul className={headerStyles.navList}>
           <li><Link to="/blog" className={headerStyles.link} activeClassName={headerStyles.activeLink}>Blog</Link></li>
