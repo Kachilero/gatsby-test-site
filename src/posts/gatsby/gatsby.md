@@ -4,7 +4,10 @@ date: "2019-04-25"
 ---
 
 This is the Gatsby bootcamp from Andrew Mead.
+
 Found on [YouTube](https://www.youtube.com/watch?time_continue=2&v=8t0vNu2fCCM)
+
+![Grass](grass.png)
 
 ## Topics Covered
 
