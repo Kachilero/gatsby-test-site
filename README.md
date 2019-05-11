@@ -1,3 +1,8 @@
+# Playing around with GatsbyJS
+I'm using this repo to follow along with Andrew Mead's [GatsbyJS Bootcamp Video](https://youtu.be/8t0vNu2fCCM)
+
+I'm leaving the Gatsby documentation below in case anyone would like to clone this and try it out.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
