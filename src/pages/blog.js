@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 import blogStyles from "../styles/blog.module.scss"
 
@@ -14,6 +15,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
+      <Head pageTitle="Blogs" />
       <h1>Blog</h1>
       <h2>Contentful Blogs</h2>
       <ol className={blogStyles.posts}>

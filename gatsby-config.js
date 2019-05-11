@@ -5,6 +5,7 @@ module.exports = {
     description: "A site to explore GatsbyJS and GraphQL",
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
