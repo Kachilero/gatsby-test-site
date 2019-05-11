@@ -1,6 +1,19 @@
 # Playing around with GatsbyJS
 I'm using this repo to follow along with Andrew Mead's [GatsbyJS Bootcamp Video](https://youtu.be/8t0vNu2fCCM)
 
+The video suggest using [Netlify](https://www.netlify.com/) for deployment because they have good intergration with GatsbyJS.
+
+## Personal thougths on Gatsby
+Gatsby seems good at bridging the gap between a CMS and a static site generator, but - quite frankly - it feels like a lot of reinventing
+the wheel just so one can use React and Javascript. Sure there are some good build scripts included and the plugin library is 
+quite extensive, but this feels like an extra step.
+
+If you just wanted to deploy a static site, something like Jekyll would make more sense. If you're wanting to have static,
+and as such fast, pages from a CMS, there are a multitude of caching options already available out there.
+
+On a similar note, using React in a "static" site seems like overkill. After all, React is not supposed to be static, it's
+supposed to be dynamic. It just seems like a lot of overhead that isn't necessary.
+
 I'm leaving the Gatsby documentation below in case anyone would like to clone this and try it out.
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
